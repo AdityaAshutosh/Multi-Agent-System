@@ -1,4 +1,4 @@
-#  [Agentic system for creating research article with crewAI]
+#  Agentic system for creating research article with crewAI
 
 This system leverages an agentic flow for creating a research article based on application layer usecases of Generative AI. Agents are based on Google's 
 `gemini-1.5-flash` model.
