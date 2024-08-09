@@ -6,7 +6,7 @@ This system leverages an agentic flow for creating a research article based on a
 It comprises of three instances of `Agent` - `researcher`, `writer` and `editor` to plan, write and proofread the article content
 and perform relevant research and collaboratively work in a sequential process (https://docs.crewai.com/how-to/Sequential), interdependently.
 
-##Project Structure
+## Project Structure
 - Agents are defined in `agents.py`. The workflow utilizes three agents as mentioned above.
 - Tasks for each of the agents are defined in `tasks.py`. As a final output, at the end of the chain,
 system will output a final research article in `new_post.txt` 
